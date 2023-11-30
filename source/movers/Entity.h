@@ -43,8 +43,8 @@ public:
 
     float getXVelocity() {return xVelocity;};
     float getYVelocity() {return yVelocity;};
-    void setXVelocity(int setX) { xVelocity = setX; };
-    void setYVelocity(int setY) { yVelocity = setY; };
+    void setXVelocity(float setX) { xVelocity = setX; };
+    void setYVelocity(float setY) { yVelocity = setY; };
 
     string getID() { return ID; };
     void setID(string sID) { ID = sID; };
