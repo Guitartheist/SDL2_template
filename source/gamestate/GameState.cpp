@@ -247,7 +247,7 @@ void GameState::handleGameplayInput() {
                 switch( event.key.keysym.sym ) {
                     case SDLK_q:
                         if (keyBoardController!=nullptr) {
-                            keyBoardController->getDude()->setHumanControlled(true);
+                            keyBoardController->getDude()->setHumanControlled(false);
                             keyBoardController->setDude(nullptr);
                         }
                         break;
