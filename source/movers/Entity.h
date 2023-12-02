@@ -49,6 +49,9 @@ public:
     string getID() { return ID; };
     void setID(string sID) { ID = sID; };
 
+    int getTeamID() {return teamID;};
+    void setTeamID(int s) {teamID=s;};
+
     SDL_Color getMainColor() { return mainColor; };
     SDL_Color getDetailColor() { return detailColor; };
     SDL_Color getAccentColor() { return accentColor; };
