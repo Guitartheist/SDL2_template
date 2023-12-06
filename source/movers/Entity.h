@@ -21,7 +21,7 @@ protected:
     SDL_Color mainColor;
     SDL_Color detailColor;
     SDL_Color accentColor;
-    StringTexture* label;
+    StringTexture* label = nullptr;
     SDL_Renderer* gRenderer;
     bool dead = false;
 public:
